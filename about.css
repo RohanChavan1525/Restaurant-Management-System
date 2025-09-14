@@ -1,0 +1,287 @@
+
+.about-image{
+    display:flex;
+
+}
+
+    
+
+nav{
+    background-color: rgb(179, 194, 17);
+    position: fixed;
+    width:100%;
+}
+#navbar{
+    justify-content: space-between;
+    display: flex;
+    
+}
+#logoimage{
+    border-radius: 60px;
+    height: 70px;
+    width: 70px;
+}
+#logo{
+    margin-left: 20px;
+}
+#navbar-item{
+    margin-top:none;
+    margin-right: 100px;
+    
+}
+
+#navbar-item li a{
+   padding: 10px;
+   font-size:18px;
+
+}
+#navbar-item{
+    padding-right: 100px;
+}
+
+/*navbarstart*/
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 15px 20px;
+}
+
+.logo {
+    
+    border-radius: 50px;
+    height:90px;
+    width: 90px;
+    shape-outside: 50px;
+    shape-margin: 50%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff9800;
+}
+
+/* Responsive Navbar */
+.hamburger {
+    display: none;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #333;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+
+/*navberend */
+.search {
+float:left;
+margin-left: 600px;
+margin: bottom 20px;
+};
+
+#info{
+    
+    color: rgb(74, 121, 166);
+}
+
+
+#new{
+    margin-left: 20px;
+}
+
+.new-all{
+    display:flex;
+}
+
+#abc{
+    margin-left: 25%;
+    color:blueviolet;
+}
+#abouts-informaton{
+    margin-left: 15%;
+    color:brown;
+    margin-top: 30px;
+}
+
+.futter{
+    margin-left: 45%;
+    margin-top: 5%;
+    color:blue;
+}
+#cust{
+    margin-left: 40%;
+    color:rgb(43, 43, 206);
+}
+#happy{
+    margin-left: 25%;
+    margin-top: 2%;
+    color:rgb(121, 11, 112)
+}
+#testimonial{
+    margin-left: 35%;
+    margin-top: 1%;
+}
+.card-text{
+    color:rgb(24, 206, 121);
+}
+
+<futter- start->
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-column {
+    width: 25%;
+    padding: 10px;
+    color:rgb(122, 7, 30);
+    font-style:italic;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color:blue;
+}
+
+.footer-column p, .footer-column ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Contact Form Styles */
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ffcc00;
+    color: #222;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: #222;
+}
+
+/* Social Media */
+.social-icons a {
+    color: #ffcc00;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    background: #111;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-column {
+        width: 100%;
+        text-align: center;
+        color:#111;
+    }
+}
